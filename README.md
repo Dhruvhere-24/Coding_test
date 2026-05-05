@@ -56,11 +56,17 @@ This repo also includes [`setup-assessment-tools.ps1`](./setup-assessment-tools.
 Suggested structure:
 
 ```text
-<roll-number>/
+459/
   question-1/
   question-2/
   question-3/
 ```
+
+Current repo layout follows this structure:
+
+- `459/question-1`: Stage 1 backend/DSA solution
+- `459/question-2`: Stage 2 React/Next frontend solution
+- `459/question-3`: reserved for any third attempted question
 
 ## Git Ignore Requirements
 
