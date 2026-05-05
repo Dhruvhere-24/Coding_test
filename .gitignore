@@ -1,0 +1,43 @@
+﻿# dependencies
+node_modules/
+
+# package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# build outputc
+dist/
+build/
+.next/
+out/
+coverage/
+
+# environment files
+.env
+.env.*
+!.env.example
+
+# editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# runtime files
+*.log
+*.tmp
+*.cache
+
+# misc
+*.tgz
+
+# local setup scripts
+setup-assessment-tools.ps1
+Coding test.txt
