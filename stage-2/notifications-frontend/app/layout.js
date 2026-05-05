@@ -1,5 +1,4 @@
-import { CssBaseline, ThemeProvider } from "@mui/material";
-import { theme } from "../src/theme";
+import { Providers } from "../src/components/providers";
 import "./globals.css";
 
 export const metadata = {
@@ -11,10 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
-          {children}
-        </ThemeProvider>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
